@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <header id="header">
+        <div class="container">
+            <h1>Register yourself!</h1>
+        </div>
+    </header>
+    
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="showcase">
+        <div class="container">
+            <p> Your data is safe with us. We are collecting this data to know more about you. Knowing you will help us help you.</p>
+        </div>
+
+    </section>
+    
+    <h2>Fill this form</h2>
+    <br>
+    <form id="form">
+        <div >
+        <label>Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter user name" class="basic-styling">
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" id="email" name="email" placeholder="ex: name@gmail.com" class="basic-styling">
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter password"  class="basic-styling">
+        </div>
+        <br>
+        <div>
+            <label>Date of birth</label>
+            <input type="date" id="dob" name="dob"  class="basic-styling">
+        </div>
+        <br>
+        <div>
+            <label>Age</label>
+            <input type="number" id="age" name="age" value="18"  class="basic-styling">
+        </div>
+        <br>
+        <div>
+            <label>Programming Level:</label><br>
+            <input type="radio" id="basic" name="level" value="basic">
+            <label for="basic">Basic</label><br>
+            <input type="radio" id="intermediate" name="level" value="intermediate">
+            <label for="intermediate">intermediate</label><br>
+            <input type="radio" id="expert" name="level" value="expert">
+            <label for="expert">Expert</label>
+            
+        </div>
+        <br>
+        <div>
+            <label>Programming languages you know:</label><br>
+            <input type="checkbox" id="lang1" name="lang1" value="Python">
+            <label for="lang1"> Python</label><br>
+            <input type="checkbox" id="lang2" name="lang2" value="cpp">
+            <label for="lang2"> C++</label><br>
+            <input type="checkbox" id="lang3" name="lang3" value="java">
+            <label for="lang2"> Java</label><br>
+        </div>
+        <input type="hidden" id="dummy" name="dummy" value="34657">
+        <br>
+        <div>
+            <button type="submit" class="button">Submit</button>
+        </div>
+    </form>
+    <!--Newsletter-->
+    <section class="bg-info text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Sign Up for our Newsletter</h3>
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter email" aria-label="email" aria-describedby="button-addon2">
+                    <button class="btn btn-dark -lg" type="button" >Submit</button>
+                  </div>
+                  
+            </div>
+        </div>
+    </section>
+    <!--boxes-->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Virtual
+                            </h3>
+                            <p class="card-test">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius at illo ducimus labore aliquam.
+                            </p>
+                            <a href="#" class="btn btn-info">Read More</a>
+                           
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1">
+                                <i class="bi bi-person-square"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Hybrid
+                            </h3>
+                            <p class="card-test">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius at illo ducimus labore aliquam.
+                            </p>
+                            <a href="#" class="btn btn-dark">Read More</a>
+                           
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                In Person
+                            </h3>
+                            <p class="card-test">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eius at illo ducimus labore aliquam.
+                            </p>
+                            <a href="#" class="btn btn-info">Read More</a>
+                           
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container2">
+                <h1>Python 30 day crash course</h1>
+                <p>Learn from basics to advance topics in just 
+                    30 days!
+                </p>
+                <a href="#" class="btn btn-lg btn-primary">
+                    Sign up today
+                </a>
+            </div>
+             <img src="image1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" style="background-image: url(image2.jpg);">
+            <div class="container2">
+                <h1>WebDev 30 day crash course</h1>
+                <p>Learn web development from basics to advance topics in just 
+                    30 days!
+                </p>
+                <a href="#" class="btn btn-lg btn-primary">
+                    Sign up today
+                </a>
+            </div>
+           
+          </div>
+          <div class="carousel-item">
+            <div class="container2">
+                <h1>JS 30 day crash course</h1>
+                <p>Learn js from basics to advance topics in just 
+                    30 days!
+                </p>
+                <a href="#" class="btn btn-lg btn-primary">
+                    Sign up today
+                </a>
+            </div>
+            <img src="image3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <footer id="footer">
+        <p>Copyright &copy; 2022, Vartika's Website</p>
+    </footer>
+</body>
+</html>
