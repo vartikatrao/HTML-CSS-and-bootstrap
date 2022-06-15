@@ -7,6 +7,12 @@
         
     }
 }
+img{
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+}
 body{
     background-color: #f4f4f4;
     color: #555;
